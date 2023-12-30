@@ -3,7 +3,7 @@ import Logo from "./icons/logo";
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-center max-w-[1200px] mx-auto">
+		<main className="flex flex-col items-center justify-center max-w-[1200px] mx-auto absolute w-full h-full top-0 right-0">
 			<h1 className="font-sans mb-5 flex lg:text-7xl md:text-6xl sm:text-5xl min-[320px]:text-2xl min-[375px]:text-3xl min-[425px]:text-[2rem] min-[500px]:text-[2.5rem]">
 				<span>Welcome at </span>
 				<span className="font-semibold text-[#ff002f] flex items-center justify-center ml-2">
@@ -20,11 +20,6 @@ export default function Home() {
 				className="bg-white rounded-[30px] px-6 py-2 text-[#333] mb-5 capitalize font-medium hover:shadow hover:text-[#000]">
 				go to app
 			</Link>
-			{/* <Link
-				href="#"
-				target="_blank">
-				report feature/issue
-			</Link> */}
 		</main>
 	);
 }
